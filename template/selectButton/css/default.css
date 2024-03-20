@@ -9,7 +9,7 @@ button {
     background-color: beige;
     font-size: 32px;
     font-weight: 600;
-    animation: 20s linear infinite rotation1;
+    animation: 180s linear infinite rotation1;
 }
 
 @keyframes rotation1{

@@ -22,8 +22,7 @@ function executeDomContentLoaded() {
     storage.setIdifEmpty();
 }
 
-const element = document.getElementById("clearButton");
-element.addEventListener("click", executeClick);
+document.getElementById("clearButton").addEventListener("click", executeClick);
 function executeClick() {
     const storage = new Storage();
     storage.removeId();
