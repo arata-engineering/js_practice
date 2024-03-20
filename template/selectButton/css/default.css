@@ -1,9 +1,20 @@
+.sentence {
+    width: 720px;
+    padding: 8px;
+    margin: 60px auto;
+    text-align: center;
+    border: double 8px beige;
+}
+
+.hinto {
+    color: red;
+}
+
 button {
     float: left;
     display: block;
     line-height: 400px;
     width: 19.5%;
-    margin-top: 60px;
     border: 1px solid beige;
     border-radius: 8%;
     background-color: beige;
