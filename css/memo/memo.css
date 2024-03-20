@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+}
+
+.container {
+    width: 360px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+li {
+    list-style: none;
+}
+
+:focus {
+    outline: none;
+}
+
+.formBox {
+    width: 100%;
+}
+
+.formBox input[name=search] {
+    margin: 0;
+    width: 280px;
+    height: 20px;
+    border-radius: 10px;
+    border-color: #83c507;
+    font-size: 16px;
+}
+
+.formBox .writeButton {
+    margin-top: 0;
+    border: #fff;
+    padding: 3px 6px;
+    background-color: #83c507;
+    border-color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.memoBox {
+    margin-top: 4px;
+    width: 100%;
+    border-radius: 2%;
+    border: solid 2px;
+    border-color: #83c507;
+}
+
+.memoListBox {
+    margin: 4px 0;
+}
+
+.memoListBox .memoList {
+    margin: 0;
+    padding: 0 4px;
+}
+
+.memoListBox .date {
+    font-size: 6px;
+}
+
+.memoListBox .deleteButton {
+    margin: 0 2px;
+    padding: 1px 4px;
+    border: none;
+    background-color: rgb(15, 222, 32);
+    font-size: 8px;
+    color: #ffffff;
+}

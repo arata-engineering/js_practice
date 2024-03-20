@@ -1,0 +1,18 @@
+button {
+    float: left;
+    display: block;
+    line-height: 400px;
+    width: 19.5%;
+    margin-top: 60px;
+    border: 1px solid beige;
+    border-radius: 8%;
+    background-color: beige;
+    font-size: 32px;
+    font-weight: 600;
+    animation: 20s linear infinite rotation1;
+}
+
+@keyframes rotation1{
+    0%{ transform:rotate(0);}
+    100%{ transform:rotate(360deg); }
+}

@@ -1,0 +1,28 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.navi .globalNavi {
+    float: left;
+    width: 20%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navi .naviTitle {
+    display: block;
+    text-align: center;
+}
