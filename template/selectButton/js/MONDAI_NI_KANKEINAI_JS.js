@@ -7,7 +7,7 @@ function checkBeforExecute() {
     if (count === null || count === undefined || isNaN(count)) {
         return;
     }
-    if (count >= 1) {
+    if (count >= 2) {
         document.getElementById("container").innerHTML = '<b>試験は終了しました。</b>'
         return;
     }
@@ -22,6 +22,7 @@ function addEventListenerForButton() {
                 return;
             }
             if (count >= 1) {
+                window.sessionStorage.setItem('tried_count', parseInt(count)+1);
                 document.getElementById("container").innerHTML = '<b>試験は終了しました。</b>'
                 return;
             }
